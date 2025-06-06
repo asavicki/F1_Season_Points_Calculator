@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>F1 Season Points Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>F1 Season Points Calculator</h1>
+        <p>Enter the driver's finishing position for each race (1-10 for points, leave empty or use >10 for 0 points).</p>
+    </header>
+    <main>
+        <div id="formContainer">
+            <form>
+                <label>
+                    Race 1
+                    <input class="points" type="text" name="race1" inputmode="numeric" placeholder="Value">
+                </label>
+                <label>
+                    Race 2
+                    <input class="points" type="text" name="race2" inputmode="numeric" placeholder="Value">
+                </label>
+                <label>
+                    Race 3
+                    <input class="points" type="text" name="race3" inputmode="numeric" placeholder="Value">
+                </label>
+                <label>
+                    Race 4
+                    <input class="points" type="text" name="race4" inputmode="numeric" placeholder="Value">
+                </label>
+                <label>
+                    Race 5
+                    <input class="points" type="text" name="race5" inputmode="numeric" placeholder="Value">
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <div id="pointsContainer">
+            <h2>Total points:</h2>
+            <p id="result"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
