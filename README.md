@@ -11,7 +11,7 @@ This is a simple web-based F1 Points Calculator built with vanilla JavaScript. I
   - The literal string "`<10`"
 - Highlights invalid entries
 - Calculates total points based on F1 scoring:
-  - `1st`: 25, `2nd`: 18, ..., `10th`: 1 point
+  - `1st`: 25, `2nd`: 18, '3rd': 15, '4th': 12, '5th': 10, '6th': 8, '7th': 6, '8th': 4, '9th': 2, `10th`: 1 point
 - Smooth scroll to results
 - Clears inputs after calculation
 
